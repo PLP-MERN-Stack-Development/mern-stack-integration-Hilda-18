@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# Blogpost
 
-## Project info
+A modern, responsive web application built with **React**, **TypeScript**, **Vite**, **TailwindCSS**, and **ShadCN/UI**. FlowFinder Kenya helps users explore, search, and navigate points of interest across Kenya.
 
-**URL**: https://lovable.dev/projects/5a7734fb-dfe5-494f-94ff-1ca380b90fc4
+---
 
-## How can I edit this code?
+## 🚀 Project Overview
 
-There are several ways of editing your application.
+FlowFinder Kenya provides a smooth and visually appealing interface for discovering locations and services across Kenya. Users can search, filter, and navigate easily, all while enjoying a responsive and modern UI.
 
-**Use Lovable**
+**Key Features:**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5a7734fb-dfe5-494f-94ff-1ca380b90fc4) and start prompting.
+- Interactive search and filtering for locations
+- Responsive design for mobile, tablet, and desktop
+- Reusable components with ShadCN/UI
+- State management using React hooks and Context API
+- Fully typed codebase using TypeScript
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📂 Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Blogpost/
+├── public/ # Static files (images, icons, favicon)
+├── src/ # React source code
+│ ├── components/ # Reusable UI components
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utility libraries and functions
+│ ├── pages/ # Page components
+│ ├── App.tsx # Main application component
+│ ├── main.tsx # Entry point for React
+│ ├── index.css # Global styles
+│ └── vite-env.d.ts # TypeScript environment definitions
+├── package.json # Project metadata and dependencies
+├── vite.config.ts # Vite configuration
+├── tailwind.config.ts # Tailwind CSS configuration
+├── tsconfig.json # TypeScript configuration
+├── tsconfig.app.json # TS config for app
+├── tsconfig.node.json # TS config for Node environment
+├── README.md # Project documentation
+└── bun.lockb # Bun package lock (if using Bun)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚡ Features Implemented
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Search & Filter**: Users can search locations and filter results dynamically.  
+- **Responsive UI**: Works on mobile, tablet, and desktop.  
+- **Reusable Components**: Built with ShadCN/UI components and TailwindCSS for fast UI development.  
+- **Custom Hooks**: Manage API calls and state efficiently.  
+- **Type Safety**: TypeScript ensures fewer runtime errors and better developer experience.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🛠 Technologies Used
+
+- **Frontend**: React, TypeScript, Vite  
+- **Styling**: TailwindCSS, ShadCN/UI  
+- **State Management**: React hooks and context API  
+- **Build Tools**: Vite  
+- **Package Manager**: Bun (or npm/yarn)  
+
+---
+
+## 📦 Installation & Setup
+
+### **Option 1: Using Bun**
+```bash
+# Navigate to project root
+cd flowfinder-kenya
+
+# Install dependencies
+bun install
+
+# Start development server
+bun dev
+
+Option 2: Using npm
+# Navigate to project root
+cd flowfinder-kenya
+
+# Remove Bun lock file (optional if switching from Bun)
+del bun.lockb
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Open your browser and go to:
 
-**Use GitHub Codespaces**
+http://localhost:8000
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/5a7734fb-dfe5-494f-94ff-1ca380b90fc4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
